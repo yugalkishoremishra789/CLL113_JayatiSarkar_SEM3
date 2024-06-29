@@ -17,21 +17,21 @@ multiple constraints of variables. We have made efforts to develop a running cod
 to solve the differential equation using `Fourth order Runge- Kutta Method` and also to run
 a simulation of the same on `COMSOLE Multiphysics Software`.
 
-<img src="Numerical-Investigation-of-Time-Temperature-Profile-in-Microwave-Heating-Process/COMSOL/coms.png" width="650" height = "100"> <img style="padding-left: 10px"> <img src="/COMSOL/c++.png" width="100" height = "100">
+<img src="Numerical-Investigation-of-Time-Temperature-Profile-in-Microwave-Heating-Process-main/COMSOL/coms.png" width="650" height = "100"> <img style="padding-left: 10px"> <img src="/COMSOL/c++.png" width="100" height = "100">
 
 ## Numerical Analysis
 In this research study, we employed the `Runge-Kutta Method` of 4th order as our numerical approach for solving a set of nonlinear coupled ordinary differential equations that define the system under investigation. These equations were transformed into initial value problems to enable their numerical solution using the chosen method. We also took into account the corresponding boundary conditions that apply to the system.
 ***The graph obtained after analysing the data:-***
 
-![](/Numerical-Investigation-of-Time-Temperature-Profile-in-Microwave-Heating-Process/COMSOL/out1.png)
+![](/Numerical-Investigation-of-Time-Temperature-Profile-in-Microwave-Heating-Process-main/COMSOL/out1.png)
 
 ***We have also simulated the microwave heating model using `COMSOLE`,the obtained result are closer to the result that we obtained by applying `Runge kutta of Fourth order`:-***
 
-![](/Numerical-Investigation-of-Time-Temperature-Profile-in-Microwave-Heating-Process/COMSOL/img_2.jpg)
+![](/Numerical-Investigation-of-Time-Temperature-Profile-in-Microwave-Heating-Process-main/COMSOL/img_2.jpg)
 
 ***The graph obtained by the simulation model is:-***
 
-![](/Numerical-Investigation-of-Time-Temperature-Profile-in-Microwave-Heating-ProcessCOMSOL/img_5.jpg)
+![](/Numerical-Investigation-of-Time-Temperature-Profile-in-Microwave-Heating-Process-main/COMSOL/img_5.jpg)
 
 ## Conclusion
 Our simulation process relied on a few simplifying assumptions to make the calculations manageable. To avoid the complexities of real potatoes, we employed a hypothetical substance with similar density and heat capacity. This simplified "potato" took the form of a rectangular block, allowing for easier modeling of its interactions with the microwave. We focused on the z-direction for the electric field's variation based on changes in the y-coordinate, effectively ignoring the magnetic field due to its negligible impact compared to its stronger counterpart. Additionally, our simulations didn't incorporate any turntable rotation, keeping the "potato" stationary throughout. Finally, we applied boundary conditions to the electric field, setting it to zero at the metal walls of the simulated microwave oven. By employing these simplifications, we were able to efficiently study the key aspects of microwave heating without getting bogged down in unnecessary details.
